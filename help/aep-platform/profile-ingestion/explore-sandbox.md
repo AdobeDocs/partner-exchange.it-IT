@@ -26,7 +26,7 @@ Per una panoramica generale della tecnologia Sandbox in AEP, consulta [articolo]
 I partner di Exchange hanno accesso a vari Adobi [!DNL Experience Cloud] prodotti (prodotti non AEP come [!DNL Analytics], [!DNL Target], tag Platform e così via) tramite il proprio Adobe [!DNL Experience Cloud] Organizzazione (non condivisa). Ai partner vengono concessi i diritti di accesso come amministratore di sistema alla propria organizzazione per gestire gli utenti e altre autorizzazioni. Adobe [!DNL Experience Platform] (AEP) viene trattato in modo diverso rispetto ad altre sandbox di Adobe. Di seguito sono riportate le principali differenze:
 
 * L&#39;accesso ad AEP NON avverrà tramite l&#39;Adobe principale dei partner [!DNL Experience Cloud] organizzazione sandbox.
-* L&#39;accesso ad AEP avviene tramite un&#39;organizzazione di Exchange Adobe condivisa.
+* L&#39;accesso ad AEP avviene tramite un&#39;organizzazione di Adobi Exchange condivisa.
 * Molte altre aziende partner di Adobe Exchange accedono ad AEP utilizzando la stessa organizzazione
    * Tramite la funzione Sandbox AEP, i dati e le attività all’interno di questa organizzazione condivisa non possono essere visualizzati o modificati dagli altri partner; ogni partner avrà accesso a una sandbox diversa all’interno dell’organizzazione condivisa.
 * I diritti di amministrazione all’interno di questa organizzazione condivisa sono molto limitati.
