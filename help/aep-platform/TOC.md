@@ -16,7 +16,7 @@ ht-degree: 0%
 # Adobe Exchange: guide all’integrazione {#integration-guides}
 
 + [Prerequisito per l’integrazione di AEP: accedere ed esplorare la sandbox di AEP](profile-ingestion/explore-sandbox.md)
-+ Acquisizione dei dati e accesso ai profili {#profile-ingestion}
++ Acquisizione dei dati e accesso al profilo {#profile-ingestion}
    + [Panoramica della guida all’integrazione](profile-ingestion/profile-integration-overview.md)
    + [Creare schemi e set di dati](profile-ingestion/schema-and-dataset.md)
    + [Importare dati batch](profile-ingestion/batch-import.md)

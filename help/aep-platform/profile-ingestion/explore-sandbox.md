@@ -16,16 +16,16 @@ Il presente articolo riguarda:
 * Differenze tra un’organizzazione sandbox Adobe Exchange Partner esistente e la sandbox AEP condivisa.
 * Richiesta di accesso alla sandbox condivisa di AEP.
 * Ricezione di un invito e-mail alla sandbox condivisa di AEP.
-* Invitare nuovi utenti in [!DNL Admin Console].
+* Invito di nuovi utenti in [!DNL Admin Console].
 * Navigazione nell’interfaccia utente di AEP.
 
-Per una panoramica generale della tecnologia Sandbox in AEP, consulta [articolo](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html).
+Per una panoramica generale della tecnologia Sandbox in AEP, consulta questo [articolo](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html).
 
 ## Sandbox AEP condivisa
 
-I partner di Exchange hanno accesso a vari Adobi [!DNL Experience Cloud] prodotti (prodotti non AEP come [!DNL Analytics], [!DNL Target], tag Platform e così via) tramite il proprio Adobe [!DNL Experience Cloud] Organizzazione (non condivisa). Ai partner vengono concessi i diritti di accesso come amministratore di sistema alla propria organizzazione per gestire gli utenti e altre autorizzazioni. Adobe [!DNL Experience Platform] (AEP) viene trattato in modo diverso rispetto ad altre sandbox di Adobe. Di seguito sono riportate le principali differenze:
+I partner di Exchange possono accedere a vari prodotti di Adobe [!DNL Experience Cloud] (prodotti non AEP come [!DNL Analytics], [!DNL Target], tag Platform e così via) tramite la propria organizzazione di Adobe [!DNL Experience Cloud] (non condivisa). Ai partner vengono concessi i diritti di accesso come amministratore di sistema alla propria organizzazione per gestire gli utenti e altre autorizzazioni. L&#39;Adobe [!DNL Experience Platform] (AEP) viene trattato in modo diverso rispetto alle altre sandbox di Adobe. Di seguito sono riportate le principali differenze:
 
-* L&#39;accesso ad AEP NON avverrà tramite l&#39;Adobe principale dei partner [!DNL Experience Cloud] organizzazione sandbox.
+* L&#39;accesso ad AEP NON avverrà tramite l&#39;organizzazione sandbox [!DNL Experience Cloud] dell&#39;Adobe principale dei partner.
 * L&#39;accesso ad AEP avviene tramite un&#39;organizzazione di Adobi Exchange condivisa.
 * Molte altre aziende partner di Adobe Exchange accedono ad AEP utilizzando la stessa organizzazione
    * Tramite la funzione Sandbox AEP, i dati e le attività all’interno di questa organizzazione condivisa non possono essere visualizzati o modificati dagli altri partner; ogni partner avrà accesso a una sandbox diversa all’interno dell’organizzazione condivisa.
@@ -34,7 +34,7 @@ I partner di Exchange hanno accesso a vari Adobi [!DNL Experience Cloud] prodott
 
 ## Richiedi accesso alla sandbox AEP condivisa
 
-Invia un [richiesta di supporto](https://adobeexchangeec.zendesk.com/hc/it-it/requests/new) con le seguenti informazioni:
+Invia una [richiesta di supporto](https://adobeexchangeec.zendesk.com/hc/it-it/requests/new) con le seguenti informazioni:
 
 * Indirizzo e-mail
 * Oggetto: Richiesta Sandbox AEP
@@ -45,13 +45,13 @@ Invia un [richiesta di supporto](https://adobeexchangeec.zendesk.com/hc/it-it/re
 
 ## Ricevi l’invito e-mail
 
-Il contatto principale che ha richiesto la sandbox di AEP riceverà un’e-mail automatizzata con l’invito a &quot;iniziare&quot; a utilizzare l’Adobe [!DNL Experience Platform]. Il contatto principale disporrà inoltre di alcuni privilegi di amministrazione descritti nella sezione successiva.
+Il contatto principale che ha richiesto la sandbox di AEP riceverà un&#39;e-mail automatica con l&#39;invito a &quot;iniziare&quot; con l&#39;Adobe [!DNL Experience Platform]. Il contatto principale disporrà inoltre di alcuni privilegi di amministrazione descritti nella sezione successiva.
 
-Invece di selezionare il pulsante &quot;Inizia&quot; nell’e-mail, accedi direttamente a `https://platform.adobe.com.` Accedi con l’Adobe ID associato all’indirizzo e-mail nell’invito oppure creane uno se non è associato a un Adobe ID.
+Invece di selezionare il pulsante &quot;Inizia&quot; nell&#39;e-mail, passa direttamente a `https://platform.adobe.com.` Accedi con l&#39;Adobe ID associato all&#39;indirizzo e-mail nell&#39;invito oppure creane uno se non è associato a un Adobe ID.
 
 ## Invita altri utenti
 
-Invia un [richiesta di supporto](https://adobeexchangeec.zendesk.com/hc/it-it/requests/new) con le seguenti informazioni:
+Invia una [richiesta di supporto](https://adobeexchangeec.zendesk.com/hc/it-it/requests/new) con le seguenti informazioni:
 
 * Indirizzo e-mail del richiedente
 * Oggetto: Sandbox AEP - Aggiungi amministratore/utente
@@ -61,7 +61,7 @@ Invia un [richiesta di supporto](https://adobeexchangeec.zendesk.com/hc/it-it/re
 
 ## Navigazione nell’interfaccia utente di AEP
 
-Guarda l’interfaccia utente di AEP [video introduttivo](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+Guarda il video introduttivo [sull&#39;interfaccia utente di AEP](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
 
 Nell’interfaccia utente di AEP sono disponibili 12 aree principali in cui è possibile effettuare la navigazione tramite il pannello a sinistra. Tuttavia, le sezioni più importanti per questo tipo di integrazione sono Schemi, Set di dati e Profili.
 
