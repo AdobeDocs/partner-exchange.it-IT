@@ -19,7 +19,7 @@ Il presente articolo riguarda:
 * Invito di nuovi utenti in [!DNL Admin Console].
 * Navigazione nell’interfaccia utente di AEP.
 
-Per una panoramica generale della tecnologia Sandbox in AEP, consulta questo [articolo](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html).
+Per una panoramica generale della tecnologia Sandbox in AEP, consulta questo [articolo](https://docs.adobe.com/content/help/it-IT/experience-platform/sandbox/home.html).
 
 ## Sandbox AEP condivisa
 
@@ -61,7 +61,7 @@ Invia una [richiesta di supporto](https://adobeexchangeec.zendesk.com/hc/it-it/r
 
 ## Navigazione nell’interfaccia utente di AEP
 
-Guarda il video introduttivo [sull&#39;interfaccia utente di AEP](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+Guarda il video introduttivo [sull&#39;interfaccia utente di AEP](https://docs.adobe.com/content/help/it-IT/platform-learn/tutorials/intro-to-platform/interface-tour.html)
 
 Nell’interfaccia utente di AEP sono disponibili 12 aree principali in cui è possibile effettuare la navigazione tramite il pannello a sinistra. Tuttavia, le sezioni più importanti per questo tipo di integrazione sono Schemi, Set di dati e Profili.
 
