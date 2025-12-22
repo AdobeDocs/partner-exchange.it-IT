@@ -9,4 +9,4 @@ ht-degree: 0%
 
 Questo archivio è stato migrato da Git Corp a GitHub Enterprise Cloud. Nuova posizione:
 
-<https://github.com/Adobe-Enterprise-Docs/partner-exchange.en>
+<https://github.com/Adobe-Enterprise-Docs/partner-exchange.it-IT>
