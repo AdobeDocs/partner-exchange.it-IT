@@ -26,11 +26,11 @@ Consulta [questa documentazione](https://www.adobe.io/apis/experienceplatform/ho
 
 ### Creare uno schema
 
-I partner possono creare uno schema utilizzando l&#39;interfaccia utente seguendo questa [esercitazione](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html). In questo esempio viene utilizzato lo schema del profilo del programma fedeltà. Anche se l’esempio è uno schema di profilo, gli schemi basati su eventi possono essere utilizzati utilizzando un processo simile.
+I partner possono creare uno schema utilizzando l&#39;interfaccia utente seguendo questa [esercitazione](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/tutorials/create-schema-ui.html). In questo esempio viene utilizzato lo schema del profilo del programma fedeltà. Anche se l’esempio è uno schema di profilo, gli schemi basati su eventi possono essere utilizzati utilizzando un processo simile.
 
 Per utilizzare le API, i partner devono disporre di un&#39;integrazione Adobe I/O esistente con autorizzazioni [!DNL Experience Platform] abilitate. Consulta questa guida per [creare un&#39;integrazione I/O](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
-Quindi visita [questo collegamento](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-api.html) per scoprire come creare schemi utilizzando l&#39;API.
+Quindi visita [questo collegamento](https://docs.adobe.com/content/help/it-IT/experience-platform/xdm/tutorials/create-schema-api.html) per scoprire come creare schemi utilizzando l&#39;API.
 
 Per creare uno schema tramite Postman, utilizza le chiamate contenute nelle cartelle 1: Crea schema, 1a: Crea schema per dati PROFILO OPPURE 1b: Crea schema per dati EVENTO.
 
@@ -40,7 +40,7 @@ Tutti i dati inseriti in Adobe [!DNL Experience Platform] sono contenuti nei set
 
 Catalog Service è il sistema di registrazione per la posizione e la derivazione dei dati in [!DNL Experience Platform] e viene utilizzato per creare e gestire i set di dati. Il catalogo tiene traccia dei metadati per ogni set di dati, che include un riferimento allo schema Experience Data Model (XDM) a cui il set di dati è conforme (illustrato nella sezione successiva) e del numero di record acquisiti in tale set di dati.
 
-Vai [qui](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/overview.html) per una panoramica dettagliata del set di dati.
+Vai [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/catalog/datasets/overview.html) per una panoramica dettagliata del set di dati.
 
 ### Creare un set di dati
 
@@ -58,9 +58,9 @@ Creare un set di dati tramite l’interfaccia utente:
 
 1. Fai clic su **[!UICONTROL Fine]**.
 
-Vai [qui](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/user-guide.html) per una guida utente per set di dati.
+Vai [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/catalog/datasets/user-guide.html) per una guida utente per set di dati.
 
-[Crea un set di dati utilizzando le API](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/create.html).
+[Crea un set di dati utilizzando le API](https://docs.adobe.com/content/help/it-IT/experience-platform/catalog/datasets/create.html).
 
 Per creare un set di dati tramite Postman, utilizza le cartelle 2: Crea set di dati, 2a: Crea set di dati per i dati PROFILE OPPURE 2b: Crea set di dati per i dati EVENT.
 

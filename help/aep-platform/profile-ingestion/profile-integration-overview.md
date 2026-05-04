@@ -33,7 +33,7 @@ La prossima volta che un cliente chiama il Call Center, riceve una risposta dall
 
 ## Risorse generali
 
-* AEP [Documentazione del prodotto](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html).
+* AEP [Documentazione del prodotto](https://docs.adobe.com/content/help/it-IT/experience-platform/landing/documentation/overview.html).
 * Estensibilità [AEP](https://www.adobe.com/insights/experience-platform-api-extensibility.html).
 
 ## Domande o feedback?
