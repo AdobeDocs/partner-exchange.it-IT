@@ -2,9 +2,14 @@
 title: Accedere al profilo unificato
 description: Utilizza le API per accedere al profilo unificato.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
+TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 797
 ht-degree: 0%
 
 ---
@@ -393,7 +398,7 @@ In caso di esito positivo, la risposta restituisce un elenco impaginato di event
 
 ### Impaginazione per eventi di serie temporali per un profilo
 
-I risultati vengono impaginati durante il recupero degli eventi delle serie temporali. Se sono presenti pagine successive di risultati, il parametro &lowbar;page.next della risposta conterrà un ID. Inoltre, il parametro &lowbar;links.next.href della risposta fornisce un URI di richiesta per recuperare la pagina successiva.
+I risultati vengono impaginati durante il recupero degli eventi delle serie temporali. Se sono presenti pagine successive di risultati, il parametro page.next della risposta conterrà un ID. Inoltre, il parametro &lowbar;links.next.href della risposta fornisce un URI di richiesta per recuperare la pagina successiva.
 
 Richiesta:
 
@@ -411,7 +416,7 @@ curl -X GET \
 
 Risposta:
 
-In caso di esito positivo, la risposta restituisce la pagina successiva di risultati. In questo esempio viene illustrata una risposta in cui non sono presenti pagine successive di risultati, come indicato dai valori stringa vuoti &lowbar;page.next e &lowbar;links.next.href.
+In caso di esito positivo, la risposta restituisce la pagina successiva di risultati. In questo esempio viene illustrata una risposta in cui non sono presenti pagine successive di risultati, come indicato dai valori stringa vuoti di &lowbar;page.next e &lowbar;links.next.href.
 
 ```
 {
@@ -463,5 +468,5 @@ In caso di esito positivo, la risposta restituisce la pagina successiva di risul
 ## Articoli di riferimento
 
 * [API Profilo cliente in tempo reale](https://adobe.ly/2TtDHWr)
-* [Accedere ai dati del profilo cliente in tempo reale utilizzando l&#39;esercitazione API profilo](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] Guida all&#39;autenticazione](https://docs.adobe.com/content/help/it-IT/experience-platform/tutorials/authentication.html)
+* [Accedere ai dati del profilo cliente in tempo reale utilizzando l’esercitazione API profilo](https://docs.adobe.com/content/help/it-IT/experience-platform/profile/api/getting-started.html)
+* [Guida all&#39;autenticazione di [!DNL Experience Platform]](https://docs.adobe.com/content/help/it-IT/experience-platform/tutorials/authentication.html)

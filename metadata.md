@@ -1,27 +1,29 @@
 ---
 cloud: Experience Cloud
 solution: Experience Cloud
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 type: Documentation
 git-repo: https://github.com/AdobeDocs/partner-exchange.it-IT
 index: false
-source-git-commit: 1285dba53d3ae0c43c8993728c5f8bc5af7546e2
+source-git-commit: 028e091ec221dad81046ae380f4a19d8f874f767
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 0%
+source-wordcount: 125
+ht-degree: 96%
 
 ---
 
 
 # Metadati per uso interno
 
-Il file metadata.md include metadati a livello di repository che passano attraverso i file TOC.md della guida utente nel repository. Se desideri modificare il contenuto di metadata.md per qualsiasi guida utente, effettua questa operazione in qualsiasi file TOC.md.
+Il file metadata.md include metadati a livello di archivio che vengono trasmessi ai file TOC.md della guida utente presente nell’archivio stesso. Se desideri modificare il contenuto del file metadata.md per qualsiasi Guida utente, effettua questa operazione in qualsiasi file TOC.md.
 
-| metadati | che cosa fa |
+| metadati | cosa fa |
 |--- |--- |
 | solution-title | Utilizzato nell’intestazione dell’articolo come collegamento |
 | solution-hub-url | Apre la pagina dell’hub helpx |
 | solution-icon | Visualizza l’icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
-| getting-started-url | Collegamento alla pagina della guida introduttiva helpx |
-| tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o KT |
-| mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra a destra. il valore predefinito è 2 |
+| getting-started-url | Collegamento alla pagina della Guida introduttiva helpx |
+| tutorials-url | Collegamento ai tutorial video: tutorial helpx o KT |
+| mini-toc-levels | Determina il numero di livelli dei titoli visualizzati nella barra a destra. il valore predefinito è 2 |
 | git-repo | Specifica la posizione dell’archivio principale per uso interno |

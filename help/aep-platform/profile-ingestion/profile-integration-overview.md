@@ -1,11 +1,17 @@
 ---
-title: "[!DNL Platform] Panoramica della guida all'acquisizione del profilo e all'integrazione degli accessi"
+title: Panoramica della Guida all'acquisizione del profilo [!DNL Platform] e all'integrazione degli accessi
 description: Scopri l'integrazione per l'acquisizione e l'accesso al profilo  [!DNL Experience Platform] .
 exl-id: a593511c-dd4c-4437-af73-f44d795cacb8
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/whnqurJyM4QXl5ikRvez7hpKWRDuU4onzROsUk-WeSI
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 0%
+source-wordcount: 492
+ht-degree: 1%
 
 ---
 
@@ -23,12 +29,12 @@ Per gli integratori, le API [!DNL Experience Platform] forniscono tutte le funzi
 
 Si consideri il mondo dei sistemi di risposta vocale interattiva (IVR) e del software di gestione del call center. Il fornitore può utilizzare le API [!DNL Experience Platform] per acquisire informazioni cronologiche sull&#39;attività del call center del cliente nel data lake dell&#39;esperienza. Se i dati vengono acquisiti nello schema XDM `ExperienceEvent` (uno schema che esprime le interazioni dei clienti), queste interazioni possono essere acquisite senza attrito direttamente nel servizio Unified Profile. In questo caso, `callerId` viene utilizzato come identificatore del cliente. Il servizio Identity si occuperà della risoluzione delle identità e assisterà il servizio Unified Profile nell’aggiungere al profilo del cliente tutti i punti dati derivanti da interazioni recenti con il call center.
 
-La prossima volta che un cliente chiama il Call Center, riceve una risposta dall’IVR. Per personalizzare il messaggio e consegnare un&#39;offerta personalizzata per il chiamante, il sistema IVR deve conoscere meglio il chiamante. Qui entra in gioco l’integrazione API con Unified Profile. Il backend IVR può contattare il servizio Unified Profile per una ricerca di punti. Quindi, consulta gli attributi del profilo che si applicano solo alle interazioni del call center o il profilo cliente completo, che ha anche gli attributi per le interazioni su altri punti di contatto. Combinando dati provenienti da più origini dati, utilizzando la risoluzione delle identità, e il profilo unificato, il call center e il provider IVR possono offrire un&#39;esperienza personalizzata al cliente, supportata dall&#39;Adobe [!DNL Experience Platform].&quot;
+La prossima volta che un cliente chiama il Call Center, riceve una risposta dall’IVR. Per personalizzare il messaggio e consegnare un&#39;offerta personalizzata per il chiamante, il sistema IVR deve conoscere meglio il chiamante. Qui entra in gioco l’integrazione API con Unified Profile. Il backend IVR può contattare il servizio Unified Profile per una ricerca di punti. Quindi, consulta gli attributi del profilo che si applicano solo alle interazioni del call center o il profilo cliente completo, che ha anche gli attributi per le interazioni su altri punti di contatto. Combinando dati provenienti da più origini dati, utilizzando la risoluzione delle identità, e il profilo unificato, il call center e il provider IVR possono offrire un&#39;esperienza personalizzata al cliente, supportata da Adobe [!DNL Experience Platform].&quot;
 
 ## Risorse generali
 
 * AEP [Documentazione del prodotto](https://docs.adobe.com/content/help/it-IT/experience-platform/landing/documentation/overview.html).
-* AEP [Estensibilità](https://www.adobe.com/insights/experience-platform-api-extensibility.html).
+* Estensibilità [AEP](https://www.adobe.com/insights/experience-platform-api-extensibility.html).
 
 ## Domande o feedback?
 

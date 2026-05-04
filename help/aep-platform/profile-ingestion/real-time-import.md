@@ -1,23 +1,26 @@
 ---
 title: Importazione in tempo reale
-description: Scopri come importare i dati in AEP in tempo reale.
+description: Scopri come importare dati in AEP in tempo reale.
 exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: 642
+ht-degree: 4%
 
 ---
 
 # Trasmetti dati ad AEP
 
-L&#39;Adobe [!DNL Experience Platform] consente lo streaming e la disponibilità in tempo reale degli eventi di profilo e di esperienza. Tutti i dati inviati ad AEP tramite streaming vengono mantenuti nel data lake. I dati possono essere inviati in streaming a set di dati esistenti o completamente nuovi tramite API o utilizzando Adobe Launch.
+Adobe [!DNL Experience Platform] consente lo streaming e la disponibilità in tempo reale degli eventi di profilo e di esperienza. Tutti i dati inviati ad AEP tramite streaming vengono memorizzati nel data lake. I dati possono essere inviati in streaming a set di dati esistenti o completamente nuovi tramite API o utilizzando Adobe Launch.
 
 Il presente articolo riguarda:
 
 * Streaming al profilo individuale XDM
 * Streaming a XDM ExperienceEvent
-* Utilizzo di AEP per lo streaming dell’estensione Launch
+* Utilizzo di AEP con l’estensione Launch per lo streaming
 
 In tutto l&#39;articolo viene fatto riferimento alla [raccolta Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) utilizzando le chiamate associate in base al numero. Ulteriori dettagli sull&#39;installazione e l&#39;utilizzo della raccolta Postman sono disponibili nella pagina Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md). Sono inoltre presenti set di dati di esempio di [dati fedeltà](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) e [profilo](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json).
 
@@ -69,7 +72,7 @@ Risposta:
 
 Assicurati di salvare l’ID fornito nella risposta precedente per le chiamate di acquisizione in streaming future (la raccolta Postman lo salverà automaticamente nella variabile di ambiente CONNECTION_ID).
 
-## Trasmetti dati profilo ad AEP
+## Trasmettere i dati del profilo ad AEP
 
 Per questa sezione, utilizza le cartelle di chiamate di Postman: 3: importazione in tempo reale, 3a: importazione in tempo reale per i dati di PROFILO.
 
@@ -97,13 +100,13 @@ Passaggi:
 1. Chiama le API Streaming Ingestion per creare un ExperienceEvent XDM
 1. Recupera il nuovo evento creato
 
-## Utilizza i tag di Experience Platform per inviare in streaming ad AEP
+## Utilizzare i tag di Experience Platform per lo streaming su AEP
 
 L&#39;estensione Adobe [!DNL Experience Platform] Launch consente di eseguire lo streaming ad AEP tramite Launch. Per ulteriori informazioni, consulta [questa guida](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html).
 
 ## Articoli di riferimento
 
 * [API di acquisizione dati](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
-* [Panoramica sull&#39;acquisizione in streaming](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingest_overview.md)
-* [Guida per gli sviluppatori sull&#39;acquisizione in streaming](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Utilizzo dell&#39;estensione AEP Launch](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)
+* [Panoramica sull’acquisizione in streaming](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingest_overview.md)
+* [Guida per gli sviluppatori sull’acquisizione in streaming](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
+* [Utilizzo dell’estensione AEP Launch](https://docs.adobe.com/content/help/it-IT/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)
