@@ -398,7 +398,7 @@ In caso di esito positivo, la risposta restituisce un elenco impaginato di event
 
 ### Impaginazione per eventi di serie temporali per un profilo
 
-I risultati vengono impaginati durante il recupero degli eventi delle serie temporali. Se sono presenti pagine successive di risultati, il parametro page.next della risposta conterrà un ID. Inoltre, il parametro &amp;lowbar;links.next.href della risposta fornisce un URI di richiesta per recuperare la pagina successiva.
+I risultati vengono impaginati durante il recupero degli eventi delle serie temporali. Se sono presenti pagine successive di risultati, il parametro page.next della risposta conterrà un ID. Inoltre, il parametro &lowbar;links.next.href della risposta fornisce un URI di richiesta per recuperare la pagina successiva.
 
 Richiesta:
 
@@ -416,7 +416,7 @@ curl -X GET \
 
 Risposta:
 
-In caso di esito positivo, la risposta restituisce la pagina successiva di risultati. In questo esempio viene illustrata una risposta in cui non sono presenti pagine successive di risultati, come indicato dai valori stringa vuoti di &amp;lowbar;page.next e &amp;lowbar;links.next.href.
+In caso di esito positivo, la risposta restituisce la pagina successiva di risultati. In questo esempio viene illustrata una risposta in cui non sono presenti pagine successive di risultati, come indicato dai valori stringa vuoti di &lowbar;page.next e &lowbar;links.next.href.
 
 ```
 {
