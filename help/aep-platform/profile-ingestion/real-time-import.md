@@ -5,13 +5,12 @@ exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
 TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: CX Enterprise
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '642'
 ht-degree: 4%
-
 ---
-
 # Trasmetti dati ad AEP
 
 Adobe [!DNL Experience Platform] consente lo streaming e la disponibilità in tempo reale degli eventi di profilo e di esperienza. Tutti i dati inviati ad AEP tramite streaming vengono memorizzati nel data lake. I dati possono essere inviati in streaming a set di dati esistenti o completamente nuovi tramite API o utilizzando Adobe Launch.
@@ -26,14 +25,14 @@ In tutto l&#39;articolo viene fatto riferimento alla [raccolta Postman](https://
 
 ## Prerequisiti
 
-* [Autentica sulla piattaforma](https://docs.adobe.com/content/help/it-IT/experience-platform/tutorials/authentication.html).
+* [Autentica sulla piattaforma](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).
 * Raccogli i valori per le intestazioni richieste dal tutorial sull’autenticazione collegato in precedenza.
 
 ## Creare una connessione in streaming
 
 Per inviare in streaming ad AEP devi prima creare una connessione in streaming. Le connessioni di streaming contengono attributi come l&#39;origine dei dati di streaming e se si inviano o meno record che appartengono agli schemi [!DNL Experience Data Model] (XDM). Dopo aver creato una connessione in streaming, riceverai un URL univoco da utilizzare per lo streaming dei dati in AEP.
 
-Vai [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/tutorials/create-streaming-connection.html) per le istruzioni su come creare una connessione in streaming tramite API o [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) per le istruzioni su come creare una connessione in streaming tramite l&#39;interfaccia utente.
+Vai [qui](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html) per le istruzioni su come creare una connessione in streaming tramite API o [qui](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) per le istruzioni su come creare una connessione in streaming tramite l&#39;interfaccia utente.
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -76,7 +75,7 @@ Assicurati di salvare l’ID fornito nella risposta precedente per le chiamate d
 
 Per questa sezione, utilizza le cartelle di chiamate di Postman: 3: importazione in tempo reale, 3a: importazione in tempo reale per i dati di PROFILO.
 
-Le richieste JSON dettagliate con le risposte per i dati del profilo di streaming sono documentate [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/tutorials/streaming-record-data.html).
+Le richieste JSON dettagliate con le risposte per i dati del profilo di streaming sono documentate [qui](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html).
 
 Passaggi:
 
@@ -90,7 +89,7 @@ Passaggi:
 
 Per questa sezione, utilizza le cartelle di chiamate di Postman: 3: importazione in tempo reale, 3b: importazione in tempo reale per i dati di PROFILO.
 
-Le richieste JSON dettagliate con le risposte per i dati sull&#39;esperienza di streaming sono documentate [qui](https://docs.adobe.com/content/help/it-IT/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
+Le richieste JSON dettagliate con le risposte per i dati sull&#39;esperienza di streaming sono documentate [qui](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
 
 Passaggi:
 

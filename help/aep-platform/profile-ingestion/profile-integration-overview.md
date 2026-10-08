@@ -1,20 +1,21 @@
 ---
 title: Panoramica della Guida all'acquisizione del profilo [!DNL Platform] e all'integrazione degli accessi
-description: Scopri l'integrazione per l'acquisizione e l'accesso al profilo  [!DNL Experience Platform] .
+description: Scopri l’integrazione per l’acquisizione e l’accesso al profilo [!DNL Experience Platform].
 exl-id: a593511c-dd4c-4437-af73-f44d795cacb8
 TQID: https://experienceleague.adobe.com/whnqurJyM4QXl5ikRvez7hpKWRDuU4onzROsUk-WeSI
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Insights
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '493'
 ht-degree: 1%
-
 ---
-
 # Guida all&#39;integrazione: acquisizione e accesso al profilo [!DNL Experience Platform]
 
 I partner devono utilizzare questa guida all&#39;integrazione per aiutarli a creare funzionalità di ingresso e uscita con Adobe [!DNL Experience Platform] (AEP). Sono disponibili API per l’acquisizione batch, l’acquisizione in streaming e l’accesso al profilo unificato (in uscita).
@@ -33,7 +34,7 @@ La prossima volta che un cliente chiama il Call Center, riceve una risposta dall
 
 ## Risorse generali
 
-* AEP [Documentazione del prodotto](https://docs.adobe.com/content/help/it-IT/experience-platform/landing/documentation/overview.html).
+* AEP [Documentazione del prodotto](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html).
 * Estensibilità [AEP](https://www.adobe.com/insights/experience-platform-api-extensibility.html).
 
 ## Domande o feedback?
