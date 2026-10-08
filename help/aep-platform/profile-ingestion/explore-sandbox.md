@@ -5,22 +5,27 @@ exl-id: 62c21615-4b03-4900-a1ad-8f809c836491
 TQID: https://experienceleague.adobe.com/A5sl-xNZBPjIKn6HO1iwM78IaQWQs4yBgbw9wwpMrGw
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Customer profiles
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 1%
-
 ---
-
 # Accedere ed esplorare la sandbox di AEP
 
 Il presente articolo riguarda:
@@ -40,9 +45,9 @@ I partner di Exchange possono accedere a vari prodotti Adobe [!DNL Experience Cl
 * L&#39;accesso ad AEP NON avverrà tramite l&#39;organizzazione sandbox principale di Adobe [!DNL Experience Cloud] dei partner.
 * L’accesso ad AEP avviene tramite un’organizzazione Adobe Exchange condivisa.
 * Molte altre aziende partner di Adobe Exchange accedono ad AEP utilizzando la stessa organizzazione
-   * Con la funzione Sandbox di AEP, i dati e le attività all’interno di questa organizzazione condivisa non possono essere visti o modificati dagli altri partner; ogni partner avrà accesso a una sandbox diversa all’interno dell’organizzazione condivisa.
+  * Con la funzione Sandbox di AEP, i dati e le attività all’interno di questa organizzazione condivisa non possono essere visti o modificati dagli altri partner; ogni partner avrà accesso a una sandbox diversa all’interno dell’organizzazione condivisa.
 * I diritti di amministrazione all’interno di questa organizzazione condivisa sono molto limitati.
-* Dopo aver ottenuto l’accesso a una sandbox su AEP, i partner visualizzeranno due organizzazioni nello switcher dell’organizzazione in alto a destra nell’interfaccia utente, nella pagina Home di Admin Console o Experience Cloud principale. Tuttavia, una volta effettuato l’accesso ad AEP, dovrebbe essere visibile solo l’organizzazione condivisa.
+* Dopo aver ottenuto l’accesso a una sandbox su AEP, i partner visualizzeranno due organizzazioni nello switcher dell’organizzazione in alto a destra nell’interfaccia utente, nella home page di Admin Console o Experience Cloud principale. Tuttavia, una volta effettuato l’accesso ad AEP, dovrebbe essere visibile solo l’organizzazione condivisa.
 
 ## Richiedere l’accesso alla sandbox di AEP condivisa
 
@@ -79,9 +84,9 @@ Nell’interfaccia utente di AEP sono disponibili 12 aree principali in cui è p
 
 * Home - la schermata di destinazione
 
-   * Suggerisce alcune attività iniziali
-   * Fornisce alcuni collegamenti ai contenuti di apprendimento
-   * Offre una visualizzazione dashboard per alcuni dei principali oggetti di AEP, ad esempio Schemi, Set di dati e Profili
+  * Suggerisce alcune attività iniziali
+  * Fornisce alcuni collegamenti ai contenuti di apprendimento
+  * Offre una visualizzazione dashboard per alcuni dei principali oggetti di AEP, ad esempio Schemi, Set di dati e Profili
 
 * Flussi di lavoro: introduzione nei flussi di lavoro comuni per l’inserimento di dati in AEP
 * Connessioni/origini: gestire le origini dei dati in AEP
